@@ -17,7 +17,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[ERNIE 5.0](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | Unknown | $0.85/1M in | Proprietary | 2 |
 | **[EXAONE / K-EXAONE](EXAONE/)** | LG AI Research | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 256K | Free | Apache 2.0 | 1 |
 | **[Falcon 3](Falcon%203/)** | TII (UAE) | [★★☆☆☆☆☆☆☆☆] 2/10 | 5-6/10 | 8-32K | Free | Apache 2.0 | 1 |
-| **[GLM by Z.ai](GLM/)** | Zhipu AI | [★★★★☆☆☆☆☆☆] 4/10 | 9/10 | 200K | Free / $0.80/1M in | MIT | 5 |
+| **[GLM by Z.ai](GLM/)** | Zhipu AI | [★★★★☆☆☆☆☆☆] 4/10 | 9/10 | 200K-1M | Free / $0.80/1M in | MIT | 6 |
 | **[IGENIUS / Colosseum](IGENIUS/)** | iGenius + NVIDIA | [★★★☆☆☆☆☆☆☆] 3/10 | 7/10 | Unknown | Free tier | Proprietary | 1 |
 | **[Indus](Indus%20by%20Sarvam%20AI/)** | Sarvam AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | 32-128K | Free | Open source | 1 |
 | **[KIMI](KIMI/)** | Moonshot AI | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | 256K | Free / $0.60/1M in | Modified MIT | 4 |
@@ -75,7 +75,7 @@ Models that are easiest to jailbreak or have minimal filtering:
 
 ### For Best Performance
 Models ranked by intelligence and benchmark results:
-- **GLM by Z.ai** — 9/10 (GLM-5: 50.4 HLE, beats Claude Opus 4.5; 92.7% AIME 2026)
+- **GLM by Z.ai** — 9/10 (GLM-5.2 benchmarked against Opus; GLM-5: 50.4 HLE, 92.7% AIME 2026)
 - **Muse Spark** — 8/10 (58% HLE Contemplating mode, peak writing quality, weak at coding)
 - **DeepSeek** — 8/10 (V4-Pro: SWE-Bench 80.6%, LiveCodeBench 93.5%, Codeforces 3206; R1-0528: 87.5% AIME 2025)
 - **ERNIE 5.0** — 8/10 (ranked 8th globally on LMArena, 1st Chinese model)
@@ -92,12 +92,12 @@ Models ranked by intelligence and benchmark results:
 Models sorted by maximum context window:
 - **Qwen** — up to 1M extended (Qwen3.5-Plus hosted)
 - **MiniMax** — 1M (API), 205K (M2.5)
+- **GLM by Z.ai** — 1M (GLM-5.2), 200K (GLM-5)
 - **KIMI** — 256K (K2.5)
 - **Xiaomi MiMo** — 256K (V2-Flash)
 - **EXAONE / K-EXAONE** — 256K (K-EXAONE-236B)
 - **Mistral** — 256K (Mistral Large 3)
 - **Mirothinker** — 256K
-- **GLM by Z.ai** — 200K (GLM-5)
 - **DeepSeek** — 1M (V4-Pro and V4-Flash), 256K (V3.2), 128K (earlier)
 - **LLAMA Tülu 3** — 128K
 - **Longcat AI** — 128K
